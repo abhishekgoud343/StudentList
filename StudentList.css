@@ -1,0 +1,48 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: white;
+    display: block;
+    margin: auto;
+    max-width: 800px;
+    padding-top : 1px;
+    padding-bottom: 1px;
+}
+
+#registration {
+    background-color: rgb(242, 226, 101);
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 700px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#registration h2 {
+    padding-top: 10px;
+}
+
+#list {
+    background-color: rgb(159, 198, 233);
+    display: block;
+    margin: auto;
+    max-width: 760px;
+    text-align: center;
+}
+
+#list h2 {
+    margin: 10px;
+    padding: 8px 20px 6px;
+}
+
+#list ol {
+    margin: 16px;
+    padding: 2px 20px 20px 30px;
+}
+
+#list li {
+    margin: 8px;
+}
