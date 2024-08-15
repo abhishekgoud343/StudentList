@@ -6,13 +6,11 @@ var list = document.getElementById('student-list');
 
 const submit = document.getElementById('submit');
 submit.addEventListener('click', () => {
-    // if (naame === '' || rollNo === '' || dept === '')
-    //     return;
+    if (naame === '' || rollNo === '' || dept === '')
+        return;
 
     var student = document.createElement('li');
-    // student.classList.add('student');
+    student.classList.add('student');
     student.textContent = `${naame} - ${rollNo} - ${dept}`;
     list.appendChild(student);
-
-    alert('Hi');
 });
